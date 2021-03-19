@@ -148,6 +148,7 @@ $ docker run --privileged  -d \
 This will start a container as described in the "Run container from Docker registry" section. View the other run configurations for more advanced setups.
 
 ### docker-compose
+```
   ocserv:
     container_name: ocserv
     image: ocserv:latest
@@ -161,3 +162,4 @@ This will start a container as described in the "Run container from Docker regis
       LISTEN_PORT: "4443"
       DNS_SERVERS: "1.1.1.1"
     restart: unless-stopped
+```
